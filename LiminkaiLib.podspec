@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "LiminkaiLib"
   spec.version      = "1.0.0"
-  spec.summary      = "A short description of LiminkaiLib."
+  spec.summary      = "测试."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -88,8 +88,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "LiminkaiLib", "LiminkaiLib/**/*.{h,m}"
-  spec.exclude_files = "LiminkaiLib/Exclude"
+  spec.source_files  = "LiminkaiLib", "*.{h,m}"
 
   # spec.public_header_files = "LiminkaiLib/**/*.h"
 
